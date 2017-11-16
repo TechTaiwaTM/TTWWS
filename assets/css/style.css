@@ -28,7 +28,13 @@ body{
     height: 250px;
     /*position: relative;*/
     /*bottom: 125px;*/
+    transition: 0.1s;
 
+}
+
+.logo-grande:hover{
+    width: 270px;
+    height: 270px;
 }
 
 .menu{
@@ -73,9 +79,6 @@ body{
 }
 
 .text-header{
-    position: relative;
-    top: 20px;
-
     text-align: center;
     text-shadow: 0.07em 0.05em #007EC6;
     color: orange;
@@ -103,7 +106,7 @@ body{
 }
 
 p{
-    font-size: 45pt;
+    font-size: 35pt;
 }
 
 @media only screen and (max-width: 959px) {

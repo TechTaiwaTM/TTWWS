@@ -1,6 +1,9 @@
 function TTWFramework(){
     typeWriter();
-    centralize();
+    // centralize();
+    MutationObserver(
+        centralize()
+    );
 }
 
 function typeWriter(){
@@ -28,19 +31,16 @@ function typeWriter(){
 }
 
 function centralize(){
-    var CLobj = document.getElementsByClassName('centralize');
-    for(i=0; i < CLobj.length; i++){
-        CLobj[i].style.display = "inline-flex";
-        CLobj[i].style.position = "relative";
-        CLobj[i].style.left = "calc(50% - " + CLobj[i].clientWidth + "px / 2)";
+    var CLobjh = document.getElementsByClassName('center-h');
+    for(i=0; i < CLobjh.length; i++){
+        CLobjh[i].style.display = "inline-flex";
+        CLobjh[i].style.position = "relative";
+        CLobjh[i].style.left = "calc(50% - " + CLobjh[i].clientWidth + "px / 2)";
     }
-}
-
-function centralize(){
-    var CLobj = document.getElementsByClassName('centralize');
-    for(i=0; i < CLobj.length; i++){
-        CLobj[i].style.display = "inline-flex";
-        CLobj[i].style.position = "relative";
-        CLobj[i].style.left = "calc(50% - " + CLobj[i].clientWidth + "px / 2)";
+    var CLobjw = document.getElementsByClassName('center-w');
+    for(i=0; i < CLobjw.length; i++){
+        CLobjw[i].style.display = "inline-flex";
+        CLobjw[i].style.position = "relative";
+        CLobjw[i].style.top = "calc(50% - " + CLobjw[i].clientHeight + "px / 2)";
     }
 }

@@ -6,8 +6,12 @@
  Azul Claro: #40B6E9
  */
 
+/* Cubos:   background-image: url("http://proyectosbeta.net/wp-content/uploads/2013/07/WallPapers_Texturas01.jpg");*/
+
 body{
     /*background-image: url('../img/background2.png');*/
+    /*background-image: url("http://proyectosbeta.net/wp-content/uploads/2013/07/WallPapers_Texturas01.jpg");*/
+    background-image: url("https://image.freepik.com/vetores-gratis/cubos-brancos-seamless-design-pattern_1319-68.jpg");
 
 }
 
@@ -63,12 +67,10 @@ body{
 
     height: 187px;
     /*background-color: #40B6E9;*/
-    background-image: url("../img/fundo-linhas.png");
-
+    /*background-image: url("../img/fundo-linhas.png");*/
 }
 
 .header1{
-    background-color: #40B6E9;
     padding: 20px;
     /*height: 200px;*/
 }
@@ -79,8 +81,9 @@ body{
 }
 
 .text-header{
+    background-color: #40B6E9;
     text-align: center;
-    text-shadow: 0.07em 0.05em #007EC6;
+    text-shadow: 0.07em 0.05em 0.06em #007EC6;
     color: orange;
     font-family: 'Aldrich', sans-serif;
 

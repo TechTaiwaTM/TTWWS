@@ -6,6 +6,11 @@
  Azul Claro: #40B6E9
  */
 
+body{
+    /*background-image: url('../img/background2.png');*/
+
+}
+
 @font-face {
     font-family: 'mvboli';
     src: url('../fonts/mvboli.ttf');
@@ -27,7 +32,8 @@
 }
 
 .col-logo{
-    height: 125px;
+    height: 200px;
+    background-image: url("https://n6-img-fp.akamaized.net/vetores-gratis/fundo-tecnologico-com-linhas-conectadas_1017-7096.jpg?size=338&ext=jpg");
 }
 
 .menu{
@@ -79,12 +85,12 @@
     text-shadow: 0.07em 0.05em silver;
     color: white;
     font-family: 'Aldrich', sans-serif;
-    margin-top:40px;
-    margin-bottom: 40px;
+    margin-top:90px;
+    margin-bottom: 20px;
+
 }
 
 .text-services{
-
 }
 
 .img{

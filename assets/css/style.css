@@ -26,14 +26,9 @@ body{
 .logo-grande{
     width: 250px;
     height: 250px;
-    position: relative;
-    bottom: 125px;
+    /*position: relative;*/
+    /*bottom: 125px;*/
 
-}
-
-.col-logo{
-    height: 200px;
-    background-image: url("https://n6-img-fp.akamaized.net/vetores-gratis/fundo-tecnologico-com-linhas-conectadas_1017-7096.jpg?size=338&ext=jpg");
 }
 
 .menu{
@@ -59,8 +54,17 @@ body{
 }
 
 .header{
-    height: 350px;
+
+    height: 187px;
+    /*background-color: #40B6E9;*/
+    background-image: url("../img/fundo-linhas.png");
+
+}
+
+.header1{
     background-color: #40B6E9;
+    padding: 20px;
+    /*height: 200px;*/
 }
 
 .header2{
@@ -70,11 +74,11 @@ body{
 
 .text-header{
     position: relative;
-    top: 30px;
-    color:white;
+    top: 20px;
+
     text-align: center;
-    text-shadow: 0.07em 0.05em silver;
-    color: white;
+    text-shadow: 0.07em 0.05em #007EC6;
+    color: orange;
     font-family: 'Aldrich', sans-serif;
 
 }

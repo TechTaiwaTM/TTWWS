@@ -2,19 +2,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+        <link href="" rel="stylesheet">
         <title>TechTaiwa</title>
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="assets/img/logo-azul-favico.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Autour+One" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
     </head>
     <body onload="main()">
 
         <div class="container-fluid">
+
+            <header class="row menu">
+                <!--<div class="col-2 techtaiwa">-->
+                    <!--&lt;!&ndash;<p>TechTaiwa</p>&ndash;&gt;-->
+                <!--</div>-->
+                <div class="col">
+                    <nav class="navbar navbar-expand-sm centralize" oncuechange="centralize()">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="menu-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="menu-item nav-link" href="#">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="menu-item nav-link" href="#">Fale Conosco</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="row">
+                <header class="col header">
+                    <p class="text-header centralize">Soluções tecnológicas acessiveis para todos</p>
+                </header>
+            </div>
+            <div class="row">
+                <div class="col col-logo">
+                    <img class="centralize logo-grande"  src="assets/img/logo-azul-ttw.png ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-text-services">
+                    <p class="text-services centralize">Conheça nossos serviços</p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col">
-                    test
+                    <img class="img centralize" src="assets/img/note.png">
+                </div>
+                <div class="col">
+                    <img class="img centralize" src="assets/img/casa.png">
                 </div>
             </div>
         </div>

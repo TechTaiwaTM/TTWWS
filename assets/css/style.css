@@ -1,0 +1,131 @@
+/*
+ Cores:
+ Laranja: #F49C3A
+ Azul Escuro: #007EC6
+ Branco: #FFFFFF
+ Azul Claro: #40B6E9
+ */
+
+@font-face {
+    font-family: 'mvboli';
+    src: url('../fonts/mvboli.ttf');
+}
+
+*{
+
+}
+.techtaiwa{
+    color: white;
+    text-shadow: 0.1px 0.1px #F49C3A;
+}
+.logo-grande{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 125px;
+
+}
+
+.col-logo{
+    height: 125px;
+}
+
+.menu{
+    background-color: #0085d3;
+    border-bottom: 5px solid white;
+}
+
+.menu-item{
+    font-size: 10pt;
+    font-weight: bolder;
+    color: white;
+    /*font-family: 'Autour One', cursive;*/
+    font-family: 'Aldrich', sans-serif;
+    border-radius: 5px;
+    transition: 0.2s;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu-item:hover{
+    border: 2px solid #ffa53c;
+    color: #ffa53c;
+}
+
+.header{
+    height: 350px;
+    background-color: #40B6E9;
+}
+
+.header2{
+    background-color: #40B6E9;
+    padding: 0px;
+}
+
+.text-header{
+    position: relative;
+    top: 30px;
+    color:white;
+    text-align: center;
+    text-shadow: 0.07em 0.05em silver;
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+
+}
+
+.col-text-services {
+    height: 100px;
+    background-color: #F49C3A;
+    text-shadow: 0.07em 0.05em silver;
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.text-services{
+
+}
+
+.img{
+    width: 300px;
+    height: auto;
+}
+
+p{
+    font-size: 45pt;
+}
+
+@media only screen and (max-width: 959px) {
+    p{
+        font-size: 40pt;
+    }
+}
+
+/*/ Tablet Portrait size to standard 960 (devices and browsers) /*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    p{
+        font-size: 35pt;
+    }
+}
+
+/*/ All Mobile Sizes (devices and browser) /*/
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 39pt;
+    }
+}
+
+/*/ Mobile Landscape Size to Tablet Portrait (devices and browsers) /*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    p{
+        font-size: 37pt;
+    }
+}
+
+/*/ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) *!*/
+@media only screen and (max-width: 479px) {
+    p{
+        font-size: 24pt;
+    }
+}

@@ -35,3 +35,12 @@ function centralize(){
         CLobj[i].style.left = "calc(50% - " + CLobj[i].clientWidth + "px / 2)";
     }
 }
+
+function centralize(){
+    var CLobj = document.getElementsByClassName('centralize');
+    for(i=0; i < CLobj.length; i++){
+        CLobj[i].style.display = "inline-flex";
+        CLobj[i].style.position = "relative";
+        CLobj[i].style.left = "calc(50% - " + CLobj[i].clientWidth + "px / 2)";
+    }
+}

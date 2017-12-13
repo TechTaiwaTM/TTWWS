@@ -1,9 +1,12 @@
 function TTWFramework(){
+    centralize();
     typeWriter();
-    // centralize();
-    MutationObserver(
-        centralize()
-    );
+
+    window.onresize = upResize;
+}
+
+function upResize(){
+    centralize();
 }
 
 function typeWriter(){
@@ -101,3 +104,14 @@ function centralize(){
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };*/
+
+// var input = document.getElementById('223');
+//
+// var observer = new MutationObserver(function(mutations) {
+//     mutations.forEach(function(mutation) {
+//         console.log("hehe");
+//     });
+// });
+//
+// var config = { attributes: true, childList: true, characterData: true };
+// observer.observe(input, config);
